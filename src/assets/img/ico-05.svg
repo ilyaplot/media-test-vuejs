@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>B5D150CE-E4F2-4ABE-AAF8-72D0EA6063E7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico05">
+            <rect id="Rectangle-4" x="0" y="0" width="24" height="24"></rect>
+            <g id="Page-1" transform="translate(3.000000, 0.000000)" fill="#B0B0B0">
+                <polygon id="Fill-1" points="4 22 5 22 5 2 4 2"></polygon>
+                <g id="Group-7">
+                    <path d="M2,22 L16,22 L16,2 L2,2 L2,22 Z M16,0 L2,0 C0.9,0 0,0.9 0,2 L0,22 C0,23.1 0.9,24 2,24 L16,24 L18,24 L18,22 L18,2 L18,0 L16,0 Z" id="Fill-2"></path>
+                    <path d="M13.5,9 L7.5,9 C7.225,9 7,8.775 7,8.5 L7,8.5 C7,8.225 7.225,8 7.5,8 L13.5,8 C13.775,8 14,8.225 14,8.5 L14,8.5 C14,8.775 13.775,9 13.5,9" id="Fill-4"></path>
+                    <path d="M13.5,11 L7.5,11 C7.225,11 7,10.775 7,10.5 L7,10.5 C7,10.225 7.225,10 7.5,10 L13.5,10 C13.775,10 14,10.225 14,10.5 L14,10.5 C14,10.775 13.775,11 13.5,11" id="Fill-5"></path>
+                    <path d="M13.5,13 L7.5,13 C7.225,13 7,12.775 7,12.5 L7,12.5 C7,12.225 7.225,12 7.5,12 L13.5,12 C13.775,12 14,12.225 14,12.5 L14,12.5 C14,12.775 13.775,13 13.5,13" id="Fill-6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

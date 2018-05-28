@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>0F06B64C-B79C-4622-84EB-8BBD19F1AE1A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MTS-RBT-Catalog-List-v2" transform="translate(-384.000000, -328.000000)">
+            <g id="artist" transform="translate(368.000000, 120.000000)">
+                <g id="song-item" transform="translate(0.000000, 184.000000)">
+                    <g id="checkbox_on" transform="translate(16.000000, 24.000000)">
+                        <g id="checkbox">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#757575" xlink:href="#path-1"></use>
+                            <g id="Rectangle-95-+-Rectangle-95-Copy" mask="url(#mask-2)" fill="#FFFFFF">
+                                <g transform="translate(8.071068, 6.071068) rotate(-315.000000) translate(-8.071068, -6.071068) translate(4.071068, 0.071068)">
+                                    <rect id="Rectangle-95" x="-3.01980663e-14" y="10" width="8" height="2" rx="1"></rect>
+                                    <rect id="Rectangle-95-Copy" transform="translate(7.000000, 6.000000) rotate(-270.000000) translate(-7.000000, -6.000000) " x="1" y="5" width="12" height="2" rx="1"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>/svg>

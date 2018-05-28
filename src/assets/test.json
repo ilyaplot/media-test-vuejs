@@ -1,0 +1,129 @@
+[
+  {
+    "content_id": 1,
+    "name": "Test content",
+    "artist": {
+      "name": "Test artist 1",
+      "artist_id": 1
+    },
+    "provider":{
+    	"code": "S",
+    	"name": "First Provider"
+    },
+    "publications": [
+      {
+        "publication_id": 1,
+        "price": "1 руб",
+        "is_disabled": false,
+        "showcase": "WEB"
+      },
+      {
+        "publication_id": 2,
+        "price": "0.87",
+        "is_disabled": false,
+        "showcase": "IVR"
+      },
+      {
+        "publication_id": 3,
+        "price": "2 руб",
+        "is_disabled": false,
+        "showcase": "WEB"
+      },
+      {
+        "publication_id": 4,
+        "price": "1000 руб",
+        "is_disabled": false,
+        "showcase": "SMS"
+      }
+    ]
+  },
+
+  {
+    "content_id": 2,
+    "name": "Test content 2",
+    "artist": {
+      "name": "Test artist 1",
+      "artist_id": 1
+    },
+    "provider":{
+    	"code": "01",
+    	"name": "Second Provider"
+    },
+    "publications": [
+      {
+        "publication_id": 5,
+        "price": "1 руб",
+        "is_disabled": false,
+        "showcase": "WEB"
+      },
+      {
+        "publication_id": 6,
+        "price": "0.87",
+        "is_disabled": false,
+        "showcase": "IVR"
+      }
+    ]
+  },
+
+  {
+    "content_id": 3,
+    "name": "Test content 3",
+    "artist": {
+      "name": "Test artist 2",
+      "artist_id": 2
+    },
+    "provider":{
+    	"code": "03",
+    	"name": "Third Provider"
+    },
+    "publications": [
+      {
+        "publication_id": 7,
+        "price": "1 руб",
+        "is_disabled": false,
+        "showcase": "WEB"
+      },
+      {
+        "publication_id": 8,
+        "price": "0.87",
+        "is_disabled": false,
+        "showcase": "IVR"
+      }
+    ]
+  },
+
+  {
+    "content_id": 4,
+    "name": "Test content 3",
+    "artist": {
+      "name": "Test artist 2",
+      "artist_id": 2
+    },
+    "provider":{
+    	"code": "S",
+    	"name": "First Provider"
+    },
+    "publications": [
+      {
+        "publication_id": 9,
+        "price": "19 руб",
+        "is_disabled": false,
+        "showcase": "WEB"
+      }
+    ]
+  },
+
+  {
+    "content_id": 5,
+    "name": "Test content 4",
+    "artist": {
+      "name": "Test artist 3",
+      "artist_id": 3
+    },
+    "provider":{
+    	"code": "03",
+    	"name": "Third Provider"
+    },
+    "publications": []
+  }
+]

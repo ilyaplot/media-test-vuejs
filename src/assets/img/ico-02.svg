@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>552AA61A-64C4-4F55-85AF-8C2CB6C11C2E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polyline id="path-1" points="0 0.05 20 0.05 20 20 0 20"></polyline>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico02">
+            <rect id="Rectangle-4" x="0" y="0" width="24" height="24"></rect>
+            <g id="Page-1" transform="translate(2.000000, 2.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M10,17.0505 C6.134,17.0505 3,13.9165 3,10.0505 C3,6.5535 5.566,3.6645 8.917,3.1425 L8.917,0.0605 C3.904,0.6015 0,4.8435 0,10.0005 C0,15.5225 4.477,20.0005 10,20.0005 C11.908,20.0005 13.685,19.4555 15.202,18.5285 L13.459,16.1315 C12.438,16.7135 11.259,17.0505 10,17.0505" id="Fill-1" fill="#B0B0B0" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M11,0.0505 L11,3.1305 C14.391,3.6165 17,6.5245 17,10.0505 C17,11.8605 16.307,13.5045 15.18,14.7475 L16.95,17.1815 C18.828,15.3635 20,12.8205 20,10.0005 C20,4.8145 16.053,0.5525 11,0.0505" id="Fill-4" fill="#B0B0B0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>A5C8FCC8-0413-48AD-9C34-1694A2BE569A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="15.7538462" rx="7.87692308"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="switch-on">
+            <g id="Rectangle-23">
+                <use fill="#E8EBF1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#E30611" stroke-width="1" x="0.5" y="0.5" width="27" height="14.7538462" rx="7.37692308"></rect>
+            </g>
+            <ellipse id="Oval-2" fill="#E30611" cx="20" cy="7.87692308" rx="6" ry="5.90769231"></ellipse>
+        </g>
+    </g>
+</svg>

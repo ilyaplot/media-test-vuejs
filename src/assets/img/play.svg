@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>3D21BD94-ECAD-41AF-BF05-EF42BB32432C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MTS-RBT-Catalog-List-v2" transform="translate(-466.000000, -212.000000)">
+            <g id="artist" transform="translate(368.000000, 120.000000)">
+                <g id="song-item" transform="translate(0.000000, 56.000000)">
+                    <g id="play" transform="translate(94.000000, 35.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                        <path d="M7.8519308,4.64009886 C8.48599191,3.73429727 9.51472671,3.73532388 10.1480692,4.64009886 L14.8519308,11.3599011 C15.4859919,12.2657027 15.1029399,13 13.9941413,13 L4.00585866,13 C2.89805351,13 2.51472671,12.2646761 3.1480692,11.3599011 L7.8519308,4.64009886 Z" id="Triangle" fill="#B0B0B0" transform="translate(9.000000, 8.000000) rotate(90.000000) translate(-9.000000, -8.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
