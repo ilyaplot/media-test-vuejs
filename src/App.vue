@@ -6,6 +6,12 @@
 			<section class="main">
 				<app-filter></app-filter>
 				<app-content></app-content>
+
+
+                <div v-for="(artist, artist_id) in artists" v-bind:key="artist_id">
+                    {{ artist.name }}
+                    <pre>{{artist.content}}</pre>
+                </div>
 			</section>
 		</div>
 	</div>
@@ -13,9 +19,7 @@
 
 <script>
 	import axios from 'axios';
-	import lodash from 'lodash';    
-// Object.defineProperty(Vue.prototype, '$lodash', { value: lodash });
-
+	import lodash from 'lodash';
 	import AppHeader from './components/Header';
 	import AppMenu from './components/Menu';
 	import AppFilter from './components/Filter';
@@ -38,39 +42,25 @@
 				pulications: [],
 				artists: [],
 				providers: [],
-				//просто тестовый массив объектов для проверки groupBy
-				cars: [{name:"Ford",speed:"120"},{name:"Kia",speed:"120"},{name:"Toyota",speed:"150"}],
 				errors: []
 			}
 		},
 		created() {
-			axios.get('http://localhost:3000/contents')
-			.then(repsonse => {
-				this.contents = repsonse.data //отладчик vue его видит, всё как надо, но в консоли он является пустым массивом :'-(
+			axios.get('/test.json')
+			.then(response => {
+                this.artists = lodash.map(lodash.groupBy(response.data, 'artist.artist_id'), function (items) {
+                    return {
+                        artist_id: items[0].artist.artist_id,
+                        name: items[0].artist.name,
+                        content: items
+                    }
+                })
 			})
 			.catch(e => {
+			    console.log(e)
 				this.errors.push(e)
 			});
-			console.log("====================================");
-			//вывод на экран тестового массива машин (до группировки)
-			console.log("this.cars = ",this.cars);
-			//делаю группировку массива машин по скорости, всё ок
-			var result = lodash.groupBy(this.cars, function(car){
-				return car.speed;
-			});
-			//вывод массива машин на экран, всё сортируется как надо
-			console.log("sorted cars = ",result);
-			console.log("====================================");
-			//вывод нашего массива contents, полученного axios (почему он пустой???)
-			console.log("this.contents = ",this.contents);
-			//делаю группировку в точности по образу и подобию как с cars
-			var result1 = lodash.groupBy(this.contents, function(content){
-				return content.artist;
-			});
-			//и естественно результат тоже пустой массив
-			console.log("sorted content = ",result1);
-			console.log("====================================");
-			//Что я делаю не так?
+
 		}
 	}
 </script>
