@@ -61,22 +61,24 @@
 
 <style lang="sass" scoped>
 .filter
+ margin: auto
 	min-height: 32px
-	max-width: 886px
+	max-width: 896px
 	display: flex
 	flex-direction: row
 	justify-content: center
 	align-items: center
- margin: auto
 	&-wrapper
 		flex: 1
 		display: flex
-		justify-content: space-around
+		justify-content: space-between
 	&-buttons
 		flex-grow: 1
 	&-block
 		margin-top: 16px
 		margin-bottom: 16px
+		&:first-child
+		 margin-left: 0px
 	&-options
 		display: flex
 		align-items: center

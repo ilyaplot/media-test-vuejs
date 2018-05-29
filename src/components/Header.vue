@@ -49,12 +49,13 @@
 			&__desc
 				margin-right: 16px
 		&-wrapper
+			padding: 0 16px
 			flex: 1
 			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3)
 		&-search
 			margin: auto
 			display: flex
-			justify-content: center
+			justify-content: space-between
 	  align-items: center
 			height: 56px
 			max-width: 896px
@@ -64,13 +65,11 @@
 				max-width: 618px
 				min-width: 328px
 		  height: 32px
-		  margin-left: 8px
 		  position: relative
 				flex-wrap: nowrap
 			&__input
 				box-sizing: border-box
 				flex-grow: 1
-				// min-width: 509px
 				margin-right: 4px
 				height: 32px
 				padding: 0 12px
@@ -101,5 +100,5 @@
 					@include btn-color($main-color, $bck-light)
 				&-excel
 					@include btn-color(#1f7144, $bck-light)
-					margin-right: 8px
+					margin-right: 0 8px
 </style>

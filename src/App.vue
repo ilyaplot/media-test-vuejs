@@ -6,12 +6,10 @@
 			<section class="main">
 				<app-filter></app-filter>
 				<app-content></app-content>
-
-
-                <div v-for="(artist, artist_id) in artists" v-bind:key="artist_id">
-                    {{ artist.name }}
-                    <pre>{{artist.content}}</pre>
-                </div>
+     <div v-for="(artist, artist_id) in artists" v-bind:key="artist_id">
+         {{ artist.name }}
+     	<pre>{{artist.content}}</pre>
+     </div>
 			</section>
 		</div>
 	</div>
@@ -38,7 +36,7 @@
 		},
 		data() {
 			return {
-				contents: [], //хотя отладчик vue его показывает, консоль утверждает что он пуст, lodash не сортирует его в итоге
+				contents: [], 
 				pulications: [],
 				artists: [],
 				providers: [],
@@ -48,16 +46,16 @@
 		created() {
 			axios.get('/test.json')
 			.then(response => {
-                this.artists = lodash.map(lodash.groupBy(response.data, 'artist.artist_id'), function (items) {
-                    return {
-                        artist_id: items[0].artist.artist_id,
-                        name: items[0].artist.name,
-                        content: items
-                    }
-                })
+     this.artists = lodash.map(lodash.groupBy(response.data, 'artist.artist_id'), function (items) {
+       return {
+        artist_id: items[0].artist.artist_id,
+        name: items[0].artist.name,
+        content: items
+       }
+     })
 			})
 			.catch(e => {
-			    console.log(e)
+			  console.log(e)
 				this.errors.push(e)
 			});
 
@@ -79,11 +77,15 @@
 		font-family: Lato
 		@include btn-color($text-color, $bck-light)
 		border: solid 1px $border-color
-	.hello
-		background-color: red
+	.app
+		overflow: hidden
 	.content
 		display: flex
 		flex-direction: row
 	.main
+		padding: 0 0 0 16px
 		flex: 1
+		overflow-y: scroll
+		// overflow: auto
+		height: calc(100vh - 56px)
 </style>
